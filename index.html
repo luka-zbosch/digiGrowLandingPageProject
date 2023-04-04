@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiGrow Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="landing-fullwidth">
+        <div class="landing-corner"></div>
+
+        <div class="container">
+            <div class="d-flex flex-wrap">
+                <div class="w-100 w-d-50">
+                    <div>
+                        <img class="mw-100" src="images/Digi Grow Frame.svg" alt="DigiGrow Logo">
+                    </div>
+                    <h1>Boost Your Organic Farming Success with DigiGrow</h1>
+                    <p>
+                        DigiGrow is the all-in-one software platform that supports <b>farmers and businesses</b> in
+                        meeting the growing demand for
+                        certified organic products worldwide
+                    </p>
+                    <p>
+                        Enter your email below to join our mailing list and gain access to all the benefits of our
+                        organic farming community
+                    </p>
+                    <form name="subscriptionForm">
+                        <div class="d-flex form-group">
+                            <input class="input" name="email" type="email" placeholder="Email">
+                            <button id="submitBtn" class="button button-white">
+                                <img src="images/submit icon.svg" alt="submit icon">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="w-100 w-d-50">
+                    <img class="w-100" src="images/ipad 1.png" alt="ipad pic">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of First Section-->
+
+
+    <div class="container">
+        <div class="position-relative">
+            <div class="section2-bg-container">
+                <div class="section2-bg"></div>
+            </div>
+            <div class="d-flex flex-column align-items-center flex-d-row-reverse">
+                <div id="section2-text" class="w-d-50">
+                    <h1>Mobile app for farmers</h1>
+                    <p class="text-zelena-tamna">
+                        DigiGrow is an app designed to help farmers and agricultural organizations make informed decisions that lead to increased crop yield and overall success in agriculture.
+                    </p>
+                    <p class="text-zelena-tamna">
+                        The app provides real-time data, comprehensive information, and user-friendly tools to help farmers make the most of their resources and improve their bottom line.
+                    </p>
+                    <p class="text-zelena-tamna">
+                        Management accounts also provide important support for farmers in the form of subsidies and grants, helping to ensure that they have the resources they need to succeed.
+                    </p>
+                </div>
+                <div class="w-50">
+                    <img class="w-100" src="images/tel 1.png" alt="smartphones">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of section 2 -->
+
+    <div class="landing-fullwidth">
+        <div class="container">
+            <h1>Main features of DigiGrow include:</h1>
+            <div class="d-flex flex-wrap align-items-end">
+                <div class="w-100 w-d-50">
+                        <div class="text-zelena-tamna">
+                            <div class="section3-bg">
+                                <p>
+                                    Farmers can draw their farms as polygons on a map and view different layers, such as NDVI
+                                    (Normalized Difference
+                                    Vegetation Index ) and LAI (Leaf Area Index), to monitor crop growth and health. They can also
+                                    add notes as customized
+                                    markers on the map to keep track of important information about their crops, such as disease
+                                    outbreaks or pests'
+                                    presence.
+                                    </p>
+                            </div>
+                            <div class="section3-bg">
+                                <p>
+                                    Agricultural meteograms with detailed weather information, including data like cloud coverage,
+                                    temperature, spray
+                                    window, precipitation, and more, are available for up to seven days in advance. This information
+                                    helps farmers plan and
+                                    make informed decisions, resulting in improved crop yields and overall success in agriculture.
+                                    </p>
+                            </div>    
+                            <div class="section3-bg">
+                                <p>
+                                    Reliable and accurate data from trusted providers ensure that farmers have access to the most
+                                    up-to-date and actionable
+                                    information available.
+                                    </p>
+                            </div>
+                            <div class="section3-bg">
+                                <p>
+                                    Google Maps integration provides a user-friendly interface for farmers to view satellite imagery
+                                    and other relevant
+                                    data.
+                                    </p>
+                            </div>
+                        </div>
+                </div>
+                <div class="w-100 w-d-50 d-none d-d-block">
+                    <img class="w-100" src="images/farm-house/rafiki.svg" alt="farmhouse">
+                </div>
+            </div>          
+        </div>
+    </div>
+
+    <!-- End of section 3 -->
+
+    <footer>
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div class="d-flex flex-column flex-d-row">
+                    <span>© DigiGrow</span>
+                    <span>2023.</span>
+                </div>
+                <div class="d-flex flex-column flex-d-row text-right">
+                    <span>info@digigrow</span>
+                    <span>.me</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End of footer section -->
+
+    <div id="subscriptionPopupContainer" class="popup-container">
+        <div class="popup">
+            <div style="text-align: right;">
+                <button type= "button" id="exitBtn" class="button">
+                    <img src="images/tabler-icon-x.svg" alt="exit-button">
+                </button>
+            </div>
+            <div style="text-align: center;">
+                <img src="images/happy-earth/rafiki.svg" alt="thankyou-message">
+            </div>
+            <h1>Thank you for subscribing!</h1>
+            <p>You have successfully subscribed to our list.</p>
+        </div>
+    </div>
+
+    <!-- End of popup section -->
+
+    <script src="main.js"></script>
+</body>
+
+</html>
